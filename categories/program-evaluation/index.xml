@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Program Evaluation on Theory of Change</title>
-    <link>seanpdraper.github.io/categories/program-evaluation/</link>
+    <link>/categories/program-evaluation/</link>
     <description>Recent content in Program Evaluation on Theory of Change</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
     <lastBuildDate>Sat, 19 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="seanpdraper.github.io/categories/program-evaluation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/program-evaluation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Data Science Meets Program Evaluation </title>
-      <link>seanpdraper.github.io/post/data-science-meets-program-evaluation/</link>
+      <link>/post/data-science-meets-program-evaluation/</link>
       <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>seanpdraper.github.io/post/data-science-meets-program-evaluation/</guid>
+      <guid>/post/data-science-meets-program-evaluation/</guid>
       <description>Some wise person said “Marry the right person, this one decision will have the most long lasting impact on your life and your happiness” (maybe it was a song). I met Michelle in the second year of my Masters Degree at the faculty Christmas party. Her steak was rare and my steak had the consistency of a shoe… we switched steaks. We got engaged on valentines day and were married in August.</description>
     </item>
     
     <item>
       <title>Theory of Change</title>
-      <link>seanpdraper.github.io/post/theory-of-change/</link>
+      <link>/post/theory-of-change/</link>
       <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>seanpdraper.github.io/post/theory-of-change/</guid>
+      <guid>/post/theory-of-change/</guid>
       <description>In the end it came as no surprise to me. The Oilers wanted to go in a different direction, and so did I. Twenty years is a long time to be in the same role in the same organization. When Glen Sather hired me away from the National Hockey League Players’ Association in 1998 he gave me the title “Director of Research, Analysis and Softare Development” - and thats pretty much what I did.</description>
     </item>
     
