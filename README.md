@@ -1,2 +1,0 @@
-# seanpdraper.github.io
-Blogdown

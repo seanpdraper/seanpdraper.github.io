@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Theory of Change on Theory of Change</title>
-    <link>/theoryOfChange/</link>
+    <link>seanpdraper.github.io/</link>
     <description>Recent content in Theory of Change on Theory of Change</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0500</lastBuildDate>
-    <atom:link href="/theoryOfChange/" rel="self" type="application/rss+xml" />
+    <atom:link href="seanpdraper.github.io/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Data Science Meets Program Evaluation </title>
-      <link>/theoryOfChange/post/data-science-meets-program-evaluation/</link>
+      <link>seanpdraper.github.io/post/data-science-meets-program-evaluation/</link>
       <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/theoryOfChange/post/data-science-meets-program-evaluation/</guid>
+      <guid>seanpdraper.github.io/post/data-science-meets-program-evaluation/</guid>
       <description>
 
 
@@ -40,10 +40,10 @@
     
     <item>
       <title>Theory of Change</title>
-      <link>/theoryOfChange/post/theory-of-change/</link>
+      <link>seanpdraper.github.io/post/theory-of-change/</link>
       <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/theoryOfChange/post/theory-of-change/</guid>
+      <guid>seanpdraper.github.io/post/theory-of-change/</guid>
       <description>
 
 
@@ -60,10 +60,10 @@
     
     <item>
       <title>Example Page</title>
-      <link>/theoryOfChange/tutorial/example/</link>
+      <link>seanpdraper.github.io/tutorial/example/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 -0500</pubDate>
       
-      <guid>/theoryOfChange/tutorial/example/</guid>
+      <guid>seanpdraper.github.io/tutorial/example/</guid>
       <description>
 
 &lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
@@ -79,21 +79,11 @@
     </item>
     
     <item>
-      <title>Privacy Policy</title>
-      <link>/theoryOfChange/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 -0500</pubDate>
-      
-      <guid>/theoryOfChange/privacy/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Example Talk</title>
-      <link>/theoryOfChange/talk/example/</link>
+      <link>seanpdraper.github.io/talk/example/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 -0600</pubDate>
       
-      <guid>/theoryOfChange/talk/example/</guid>
+      <guid>seanpdraper.github.io/talk/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     &lt;p&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.&lt;/p&gt;
@@ -116,19 +106,19 @@
     
     <item>
       <title>External Project</title>
-      <link>/theoryOfChange/project/external-project/</link>
+      <link>seanpdraper.github.io/project/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/theoryOfChange/project/external-project/</guid>
+      <guid>seanpdraper.github.io/project/external-project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Internal Project</title>
-      <link>/theoryOfChange/project/internal-project/</link>
+      <link>seanpdraper.github.io/project/internal-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/theoryOfChange/project/internal-project/</guid>
+      <guid>seanpdraper.github.io/project/internal-project/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
@@ -143,20 +133,20 @@
     
     <item>
       <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>/theoryOfChange/publication/person-re-id/</link>
+      <link>seanpdraper.github.io/publication/person-re-id/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 -0500</pubDate>
       
-      <guid>/theoryOfChange/publication/person-re-id/</guid>
+      <guid>seanpdraper.github.io/publication/person-re-id/</guid>
       <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Mobile visual clothing search</title>
-      <link>/theoryOfChange/publication/clothing-search/</link>
+      <link>seanpdraper.github.io/publication/clothing-search/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 -0500</pubDate>
       
-      <guid>/theoryOfChange/publication/clothing-search/</guid>
+      <guid>seanpdraper.github.io/publication/clothing-search/</guid>
       <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>

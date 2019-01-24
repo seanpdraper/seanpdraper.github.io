@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Theory of Change</title>
-    <link>/theoryOfChange/categories/</link>
+    <link>seanpdraper.github.io/categories/</link>
     <description>Recent content in Categories on Theory of Change</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
     
-	<atom:link href="/theoryOfChange/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="seanpdraper.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Program Evaluation</title>
-      <link>/theoryOfChange/categories/program-evaluation/</link>
+      <link>seanpdraper.github.io/categories/program-evaluation/</link>
       <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/theoryOfChange/categories/program-evaluation/</guid>
+      <guid>seanpdraper.github.io/categories/program-evaluation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>/theoryOfChange/categories/r/</link>
+      <link>seanpdraper.github.io/categories/r/</link>
       <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/theoryOfChange/categories/r/</guid>
+      <guid>seanpdraper.github.io/categories/r/</guid>
       <description></description>
     </item>
     

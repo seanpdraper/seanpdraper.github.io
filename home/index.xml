@@ -2,131 +2,131 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Theory of Change</title>
-    <link>/theoryOfChange/home/</link>
+    <link>seanpdraper.github.io/home/</link>
     <description>Recent content in Homes on Theory of Change</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0500</lastBuildDate>
     
-	<atom:link href="/theoryOfChange/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="seanpdraper.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>/theoryOfChange/home/hero_carousel/</link>
+      <link>seanpdraper.github.io/home/hero_carousel/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 -0500</pubDate>
       
-      <guid>/theoryOfChange/home/hero_carousel/</guid>
+      <guid>seanpdraper.github.io/home/hero_carousel/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/theoryOfChange/home/about/</link>
+      <link>seanpdraper.github.io/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/theoryOfChange/home/about/</guid>
+      <guid>seanpdraper.github.io/home/about/</guid>
       <description>About the Author AndersonDraper Consulting Inc. is an Edmonton-based company, which focuses on program and policy evaluation, with a specific expertise in community and outcome-based evaluations. The firm is a partnership between Michelle Anderson-Draper, Credentialed Evaluator, who has been involved in evaluation for the past 15 years and Sean Draper, a certified software developer (MCSD.NET)
 Sean brings over 20 years experience as a Data Scientist with a focus on information management, data analysis, visual data modeling and application development.</description>
     </item>
     
     <item>
       <title>Things I Like</title>
-      <link>/theoryOfChange/home/skills/</link>
+      <link>seanpdraper.github.io/home/skills/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 -0500</pubDate>
       
-      <guid>/theoryOfChange/home/skills/</guid>
+      <guid>seanpdraper.github.io/home/skills/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Academic</title>
-      <link>/theoryOfChange/home/hero/</link>
+      <link>seanpdraper.github.io/home/hero/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 -0500</pubDate>
       
-      <guid>/theoryOfChange/home/hero/</guid>
+      <guid>seanpdraper.github.io/home/hero/</guid>
       <description>The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀 Latest release   Star</description>
     </item>
     
     <item>
       <title>Recent Posts</title>
-      <link>/theoryOfChange/home/posts/</link>
+      <link>seanpdraper.github.io/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/theoryOfChange/home/posts/</guid>
+      <guid>seanpdraper.github.io/home/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Experience</title>
-      <link>/theoryOfChange/home/experience/</link>
+      <link>seanpdraper.github.io/home/experience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/theoryOfChange/home/experience/</guid>
+      <guid>seanpdraper.github.io/home/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Selected Publications</title>
-      <link>/theoryOfChange/home/publications_selected/</link>
+      <link>seanpdraper.github.io/home/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/theoryOfChange/home/publications_selected/</guid>
+      <guid>seanpdraper.github.io/home/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Accomplish&amp;shy;ments</title>
-      <link>/theoryOfChange/home/accomplishments/</link>
+      <link>seanpdraper.github.io/home/accomplishments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/theoryOfChange/home/accomplishments/</guid>
+      <guid>seanpdraper.github.io/home/accomplishments/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Publications</title>
-      <link>/theoryOfChange/home/publications/</link>
+      <link>seanpdraper.github.io/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/theoryOfChange/home/publications/</guid>
+      <guid>seanpdraper.github.io/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Selected Talks</title>
-      <link>/theoryOfChange/home/talks_selected/</link>
+      <link>seanpdraper.github.io/home/talks_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/theoryOfChange/home/talks_selected/</guid>
+      <guid>seanpdraper.github.io/home/talks_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>/theoryOfChange/home/talks/</link>
+      <link>seanpdraper.github.io/home/talks/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/theoryOfChange/home/talks/</guid>
+      <guid>seanpdraper.github.io/home/talks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>/theoryOfChange/home/projects/</link>
+      <link>seanpdraper.github.io/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/theoryOfChange/home/projects/</guid>
+      <guid>seanpdraper.github.io/home/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Teaching &amp; Academic Coursework</title>
-      <link>/theoryOfChange/home/teaching/</link>
+      <link>seanpdraper.github.io/home/teaching/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/theoryOfChange/home/teaching/</guid>
+      <guid>seanpdraper.github.io/home/teaching/</guid>
       <description>I served as a sessional instructor for the Department of Health Sciences, Human Kinetics at the University of Ottawa, teaching the following courses:
 Graduate Level
  Quantitative Dat Analysis in Sport, Physical Activity and Health Quantitative Research Methods in Sport, Physical Activity and Health  Undergraduate level
@@ -136,19 +136,19 @@ Graduate Level
     
     <item>
       <title>Tags</title>
-      <link>/theoryOfChange/home/tags/</link>
+      <link>seanpdraper.github.io/home/tags/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 -0500</pubDate>
       
-      <guid>/theoryOfChange/home/tags/</guid>
+      <guid>seanpdraper.github.io/home/tags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>/theoryOfChange/home/contact/</link>
+      <link>seanpdraper.github.io/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/theoryOfChange/home/contact/</guid>
+      <guid>seanpdraper.github.io/home/contact/</guid>
       <description></description>
     </item>
     
