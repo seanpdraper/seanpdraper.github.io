@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 3.3.0">
+  <meta name="generator" content="Hugo 0.53" />
+  <meta name="author" content="Sean P. Draper">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="Some wise person said “Marry the right person, this one decision will have the most long lasting impact on your life and your happiness” (maybe it was a song). I met Michelle in the second year of my Masters Degree at the faculty Christmas party. Her steak was rare and my steak had the consistency of a shoe… we switched steaks. We got engaged on valentines day and were married in August.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="seanpdraper.github.io/post/data-science-meets-program-evaluation/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#4caf50">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Playfair+Display:400,700|Fauna+One">
+  
+
+  <link rel="stylesheet" href="/seanpdraper.github.io/styles.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="seanpdraper.github.io/index.xml" type="application/rss+xml" title="Theory of Change">
+  <link rel="feed" href="seanpdraper.github.io/index.xml" type="application/rss+xml" title="Theory of Change">
+  
+
+  <link rel="manifest" href="/seanpdraper.github.io/site.webmanifest">
+  <link rel="icon" type="image/png" href="/seanpdraper.github.io/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/seanpdraper.github.io/img/icon-192.png">
+
+  <link rel="canonical" href="seanpdraper.github.io/post/data-science-meets-program-evaluation/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@seandraper1770">
+  <meta property="twitter:creator" content="@seandraper1770">
+  
+  <meta property="og:site_name" content="Theory of Change">
+  <meta property="og:url" content="seanpdraper.github.io/post/data-science-meets-program-evaluation/">
+  <meta property="og:title" content="Data Science Meets Program Evaluation  | Theory of Change">
+  <meta property="og:description" content="Some wise person said “Marry the right person, this one decision will have the most long lasting impact on your life and your happiness” (maybe it was a song). I met Michelle in the second year of my Masters Degree at the faculty Christmas party. Her steak was rare and my steak had the consistency of a shoe… we switched steaks. We got engaged on valentines day and were married in August."><meta property="og:image" content="seanpdraper.github.io/img/portrait.jpg">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2019-01-19T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2019-01-19T00:00:00&#43;00:00">
+  
+
+  
+
+  
+
+  <title>Data Science Meets Program Evaluation  | Theory of Change</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/seanpdraper.github.io/">Theory of Change</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/seanpdraper.github.io/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/seanpdraper.github.io/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/seanpdraper.github.io/tutorial/">
+            
+            <span>Tutorials</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/seanpdraper.github.io/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Data Science Meets Program Evaluation </h1>
+
+  
+
+  
+    
+
+<div class="article-metadata">
+
+  
+  
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Sean P. Draper">
+  </span>
+  
+
+  <span class="article-date">
+    
+    <meta content="2019-01-19 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+    <time datetime="2019-01-19 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+      Jan 19, 2019
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Sean P. Draper">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder"></i>
+    
+    <a href="seanpdraper.github.io/categories/program-evaluation/">Program Evaluation</a>, 
+    
+    <a href="seanpdraper.github.io/categories/r/">R</a>
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Data%20Science%20Meets%20Program%20Evaluation%20&amp;url=seanpdraper.github.io%2fpost%2fdata-science-meets-program-evaluation%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=seanpdraper.github.io%2fpost%2fdata-science-meets-program-evaluation%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=seanpdraper.github.io%2fpost%2fdata-science-meets-program-evaluation%2f&amp;title=Data%20Science%20Meets%20Program%20Evaluation%20"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=seanpdraper.github.io%2fpost%2fdata-science-meets-program-evaluation%2f&amp;title=Data%20Science%20Meets%20Program%20Evaluation%20"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Data%20Science%20Meets%20Program%20Evaluation%20&amp;body=seanpdraper.github.io%2fpost%2fdata-science-meets-program-evaluation%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+
+<p>Some wise person said “Marry the right person, this one decision will have the most long lasting impact on your life and your happiness” (maybe it was a song). I met Michelle in the second year of my Masters Degree at the faculty Christmas party. Her steak was rare and my steak had the consistency of a shoe… we switched steaks. We got engaged on valentines day and were married in August. Our son Justin was born the following March (at the <strong>end</strong> of March!). Our second son, David, turned one the year we moved to Edmonton.</p>
+<p>Michelle is the yin to my yang - she has been invoved in the not-for-profit sector for most of her carreer, I have been working for a hockey team (with no socially redeeming qualities). She is presently the Chair of the Edmonton Public School Board (I am a-political and was terrified my first time door-knocking with her). In addition to her Masters Degree in Liesure Studies (University of Ottawa) she holds a Master Of Science Degree (Human Ecology, Univerity of Alberta), a teaching degree (Concordia College) and she is presently enrolled in a PhD program at the University of Western Ontario (Educational Leadership) - I left school before completing my PhD and have never looked back.</p>
+<p>Career and Academics asside, she holds the professional designation of Certified Professional Evaluator - and this is where the fun begins.</p>
+<p>Michelle has run her own Program Evaluation consulting business quite successfully for the last few years. Evaluators are in high demand - and are almost as sexy as data scientists. Whenever she had a “data problem” or needed a t-test done, I would get the call. As more and more projects piled up, she turned to me for help. I am not an evaluator, and program evaluation is still a bit like C++ to me - its a tough language to learn and their are rules but you can do a lot with it if you put in the work. A funny thing happined to me while working for the Oilers - I became able to type almost as fast as I could think. In meetings, I would transcribe live notes to the screen as we discussed players, trades, draft picks. Seeing these discussions appear live in real time on the screen was quite helpful to the scouts. It turns out, my scouting staff meetings were just focus grouops, and Michelle ran focus groups all the time. Michelle likes flip charts and post-it-notes, and they have served her well in her career. After much convincing I finally got her to agree to letting me “mind map” one of her focus grous (this was in addition to her post-it-notes, because, change is hard!). I like MindNode, but have been doing work in coggle.it latley because it is platform independent and shares better. She still likes her post-it-notes, but had to agree that live mind mapping was an awesome way to run a focus group.</p>
+<p>I was doing more and more work on the side with Michelle in my last season with the Oilers, and was clearly getting more out of my side job than my actual job, so when the Oilers decided not to renew my contract, I was ready to ease into the world of consulting. I am a technology specialist first and foremost, so that is what I focused on. I now work with not-for-profit organizations. I help get them away from expensive software and database platforms. Microsoft and Google both offer no-cost not-for-profit pricing, and both platforms come with their own data management capeabilities. Google Sheets or SharePoint can replace a propriatory database service. The really enjoyable part is building capacity in-house with these organizations, helping them to take ownership of their own data and then helping them build out their reporting. And they listen to me when I make a suggestion and I never hear “my gut says otherwise.”</p>
+<p>The more work you do around program evaluation, the more you start to pick up things. In building a data management platform for a client, we started looking at their <em>program indicators</em> first, and then built the system to capture those indicators. Different funders had different indicators they needed reporting on - parameterized reports in RMarkdown fit quite well. In program evaluation there is this thing called the Theory of Change. Its an if…then statement but you don’t have to be a programmer to understand it. It goes something like this:</p>
+<div id="theory-of-change" class="section level3">
+<h3>Theory of Change</h3>
+<p><strong>If</strong> [we do the things we have said we should do]… <strong>then</strong> [we will see this long term result with the people we are working with]</p>
+<p>A <strong>theory of change</strong> is a foundational statement that provides an understanding of the pathway to change. It clarifies expectations amongst diverse stakeholders and highlights common understanding regarding intended outcomes of the proposed change. - and please don’t try to wordsmith it after it has been approved! Everyone in the organization is supposed to buy into this statement, and it serves as a reference point for the evaluation.</p>
+</div>
+<div id="logic-model" class="section level3">
+<h3>Logic Model</h3>
+<p>The next step is the <strong>logic model</strong> and it is here that things really start to get interesting from a data science perspective. According to Michelle, a logic model is “a visual illustration of a program’s inputs (or resources), activities, outputs and expected outcomes. It is a tool used to describe relationships between various components”</p>
+<p>[INSERT A LOGIC MODEL HERE - can you get the Family Outreach one from Visme?]</p>
+</div>
+
+    </div>
+
+    
+
+
+
+
+    
+
+
+
+
+
+
+<div class="media author-card" itemscope itemtype="http://schema.org/Person">
+  
+  <img class="portrait mr-3" src="/seanpdraper.github.io/img/portrait.jpg" itemprop="image" alt="Avatar">
+  
+  <div class="media-body">
+    <h5 class="card-title" itemprop="name"><a href="/seanpdraper.github.io/">Sean P. Draper</a></h5>
+    <h6 class="card-subtitle">Data Scientist</h6>
+    
+    <ul class="network-icon" aria-hidden="true">
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="/seanpdraper.github.io/#contact" >
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://twitter.com/seandraper1770" target="_blank" rel="noopener">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://github.com/seanpdraper" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+
+
+
+    
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<div class="container">
+  <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2019 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/seanpdraper.github.io/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    <script src="/seanpdraper.github.io/js/academic.min.07fbebbbf71b021c8836e1d7ecffa489.js"></script>
+
+    
+
+  </body>
+</html>
+
